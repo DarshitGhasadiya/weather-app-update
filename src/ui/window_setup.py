@@ -24,8 +24,8 @@ class WeatherApp:
         self.controller.register_callback('on_loading', self.on_loading)
         
         self.german_cities = ["Zweibrücken", "Zwickau", "Berlin", "Munich", "Hamburg", "Frankfurt", 
-                             "Cologne", "Stuttgart", "Düsseldorf", "Dortmund", "Essen", "Leipzig", 
-                             "Bremen", "Dresden", "Hanover", "Nuremberg", "Duisburg"]
+                            "Cologne", "Stuttgart", "Düsseldorf", "Dortmund", "Essen", "Leipzig", 
+                            "Bremen", "Dresden", "Hanover", "Nuremberg", "Duisburg"]
         
         self.weather_icons = {
             'clear': '☀️', 'sunny': '☀️', 'clouds': '☁️', 'cloudy': '☁️',
